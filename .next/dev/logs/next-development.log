@@ -1,6 +1,77 @@
-{"timestamp":"00:00:04.650","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:07.685","source":"Server","level":"LOG","message":"○ Compiling / ..."}
-{"timestamp":"00:00:15.160","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:15.335","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:01:04.224","source":"Server","level":"LOG","message":"  Reload env: .env"}
-{"timestamp":"00:01:04.321","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"00:00:03.051","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.222","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:06.225","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:06.227","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/haldirams.png\" \"received\" null"}
+{"timestamp":"00:00:06.230","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:06.577","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:06.999","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:07.053","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/axis-bank.png\" \"received\" null"}
+{"timestamp":"00:00:07.055","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/axis-bank.png\" \"received\" null"}
+{"timestamp":"00:00:07.087","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:07.098","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/au-bank.png\" \"received\" null"}
+{"timestamp":"00:00:07.422","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/axis-bank.png\" \"received\" null"}
+{"timestamp":"00:00:07.520","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/au-bank.png\" \"received\" null"}
+{"timestamp":"00:00:07.545","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/axis-bank.png\" \"received\" null"}
+{"timestamp":"00:00:07.892","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/canara-bank.png\" \"received\" null"}
+{"timestamp":"00:00:08.044","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/au-bank.png\" \"received\" null"}
+{"timestamp":"00:00:08.300","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:08.315","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/au-bank.png\" \"received\" null"}
+{"timestamp":"00:00:08.339","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/canara-bank.png\" \"received\" null"}
+{"timestamp":"00:00:08.471","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:08.940","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/canara-bank.png\" \"received\" null"}
+{"timestamp":"00:00:09.038","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/hdfc-bank.png\" \"received\" null"}
+{"timestamp":"00:00:09.040","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/hdfc-bank.png\" \"received\" null"}
+{"timestamp":"00:00:10.249","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/icici-bank.png\" \"received\" null"}
+{"timestamp":"00:00:10.268","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/canara-bank.png\" \"received\" null"}
+{"timestamp":"00:00:10.269","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/hdfc-bank.png\" \"received\" null"}
+{"timestamp":"00:00:10.291","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/icici-bank.png\" \"received\" null"}
+{"timestamp":"00:00:10.297","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/kotak-bank.png\" \"received\" null"}
+{"timestamp":"00:00:10.517","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/hdfc-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.049","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/kotak-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.051","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/icici-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.065","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/icici-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.079","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/rbl-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.249","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/rbl-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.573","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:11.596","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/kotak-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.677","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/sbi.png\" \"received\" null"}
+{"timestamp":"00:00:11.678","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/kotak-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.822","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/rbl-bank.png\" \"received\" null"}
+{"timestamp":"00:00:11.831","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/sbi.png\" \"received\" null"}
+{"timestamp":"00:00:12.524","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/yes-bank.png\" \"received\" null"}
+{"timestamp":"00:00:12.543","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/axis-bank.png\" \"received\" null"}
+{"timestamp":"00:00:12.545","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/rbl-bank.png\" \"received\" null"}
+{"timestamp":"00:00:12.555","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/yes-bank.png\" \"received\" null"}
+{"timestamp":"00:00:12.579","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/sbi.png\" \"received\" null"}
+{"timestamp":"00:00:12.591","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/axis-bank.png\" \"received\" null"}
+{"timestamp":"00:00:13.223","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/au-bank.png\" \"received\" null"}
+{"timestamp":"00:00:13.225","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/au-bank.png\" \"received\" null"}
+{"timestamp":"00:00:13.309","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/canara-bank.png\" \"received\" null"}
+{"timestamp":"00:00:13.359","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/sbi.png\" \"received\" null"}
+{"timestamp":"00:00:13.372","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/tak-inc.png\" \"received\" null"}
+{"timestamp":"00:00:13.728","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/tak-inc.png\" \"received\" null"}
+{"timestamp":"00:00:13.870","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/yes-bank.png\" \"received\" null"}
+{"timestamp":"00:00:14.000","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/beyobo.png\" \"received\" null"}
+{"timestamp":"00:00:14.201","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/yes-bank.png\" \"received\" null"}
+{"timestamp":"00:00:14.223","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/tak-inc.png\" \"received\" null"}
+{"timestamp":"00:00:14.238","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/beyobo.png\" \"received\" null"}
+{"timestamp":"00:00:14.657","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/haldirams.png\" \"received\" null"}
+{"timestamp":"00:00:14.755","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/tak-inc.png\" \"received\" null"}
+{"timestamp":"00:00:14.756","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/haldirams.png\" \"received\" null"}
+{"timestamp":"00:00:15.071","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/beyobo.png\" \"received\" null"}
+{"timestamp":"00:00:15.117","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/beyobo.png\" \"received\" null"}
+{"timestamp":"00:00:15.126","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:15.524","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:15.648","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/haldirams.png\" \"received\" null"}
+{"timestamp":"00:00:15.649","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:15.774","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/haldirams.png\" \"received\" null"}
+{"timestamp":"00:00:15.937","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:15.939","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:16.188","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:16.308","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:16.325","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:19.753","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:19.756","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:20.103","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/vadilal.png\" \"received\" null"}
+{"timestamp":"00:00:20.105","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/manyavar.png\" \"received\" null"}
+{"timestamp":"00:00:24.036","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/partners/haldirams.png\" \"received\" null"}

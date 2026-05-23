@@ -1802,45 +1802,129 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/wrench.mjs [app-ssr] (ecmascript) <export default as Wrench>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.mjs [app-ssr] (ecmascript) <export default as ArrowRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/info.mjs [app-ssr] (ecmascript) <export default as Info>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/landmark.mjs [app-ssr] (ecmascript) <export default as Landmark>");
 "use client";
 ;
 ;
 ;
 ;
 ;
-const testimonialCards = [
+;
+const partnerCards = [
     {
-        name: "CA Firm, Mumbai",
-        role: "Chartered Accountant Practice",
-        image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=680&q=80",
-        quote: "The Smart Audit TDL transformed our audit process. Clause 44 reports that used to take days now generate in minutes."
+        category: "Banking Partner",
+        name: "Axis Bank",
+        image: "/partners/axis-bank.png",
+        detail: "Launched a Tally plugin.",
+        status: "PARTNER"
     },
     {
-        name: "Manufacturing Co., Delhi",
-        role: "Mid-Size Manufacturer",
-        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=680&q=80",
-        quote: "WhatsApp integration automated our payment reminders and our collections improved by 35%."
+        category: "Banking Partner",
+        name: "AU Small Finance Bank",
+        image: "/partners/au-bank.png",
+        detail: "Confirmed as a partner.",
+        status: "PARTNER"
     },
     {
-        name: "Trading Company, Bangalore",
-        role: "Wholesale Distribution Business",
-        image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=680&q=80",
-        quote: "Bank reconciliation once took an entire day. With Smart Bank Recon, we are done in under 30 minutes with zero errors."
+        category: "Banking Partner",
+        name: "Canara Bank",
+        image: "/partners/canara-bank.png",
+        detail: "Confirmed as a partner.",
+        status: "PARTNER"
     },
     {
-        name: "Growing Distributor",
-        role: "Tally Prime User",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=680&q=80",
-        quote: "Installation took minutes and the automation now keeps our invoices and ledgers organised every day."
+        category: "Banking Partner",
+        name: "HDFC Bank",
+        image: "/partners/hdfc-bank.png",
+        detail: "Listed as a partner on TallyKonnect's official site.",
+        status: "PARTNER"
     },
     {
-        name: "Finance Team",
-        role: "GST & Compliance Operations",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=680&q=80",
-        quote: "GST reconciliation is faster and mismatch alerts help us protect ITC without manual spreadsheets."
+        category: "Banking Partner",
+        name: "ICICI Bank",
+        image: "/partners/icici-bank.png",
+        detail: 'Announced as the "first BANK PLUGIN" created in 2021.',
+        status: "FIRST PLUGIN"
+    },
+    {
+        category: "Banking Partner",
+        name: "Kotak Mahindra Bank",
+        image: "/partners/kotak-bank.png",
+        detail: "Listed as a partner on TallyKonnect's official site.",
+        status: "PARTNER"
+    },
+    {
+        category: "Banking Partner",
+        name: "RBL Bank",
+        image: "/partners/rbl-bank.png",
+        detail: 'The plugin is noted as "IN PROGRESS".',
+        status: "IN PROGRESS"
+    },
+    {
+        category: "Banking Partner",
+        name: "State Bank of India",
+        image: "/partners/sbi.png",
+        detail: "Listed as a partner on TallyKonnect's official site.",
+        status: "PARTNER"
+    },
+    {
+        category: "Banking Partner",
+        name: "Yes Bank",
+        image: "/partners/yes-bank.png",
+        detail: "Launched a Tally plugin in May 2024.",
+        status: "PLUGIN LIVE"
+    },
+    {
+        category: "Technology Collaborator",
+        name: "Tak.inc",
+        image: "/partners/tak-inc.png",
+        detail: "Collaborated to create the first ICICI Bank plugin.",
+        status: "COLLABORATOR"
+    },
+    {
+        category: "Enterprise Client",
+        name: "Beyobo",
+        image: "/partners/beyobo.png",
+        detail: "Listed by TallyKonnect as an enterprise client.",
+        status: "SELF-REPORTED"
+    },
+    {
+        category: "Enterprise Client",
+        name: "Haldiram's",
+        image: "/partners/haldirams.png",
+        detail: "Listed by TallyKonnect as an enterprise client.",
+        status: "SELF-REPORTED"
+    },
+    {
+        category: "Enterprise Client",
+        name: "Vadilal",
+        image: "/partners/vadilal.png",
+        detail: "Listed by TallyKonnect as an enterprise client.",
+        status: "SELF-REPORTED"
+    },
+    {
+        category: "Enterprise Client",
+        name: "Vedant Fashions Limited",
+        image: "/partners/manyavar.png",
+        detail: "Listed by TallyKonnect as an enterprise client.",
+        status: "SELF-REPORTED"
     }
 ];
-function FlipCard({ item }) {
+function StatusBadge({ status }) {
+    const statusColor = status === "IN PROGRESS" ? "bg-amber-100 text-amber-700" : status === "SELF-REPORTED" ? "bg-slate-100 text-slate-600" : status === "FIRST PLUGIN" ? "bg-purple-100 text-purple-700" : status === "COLLABORATOR" ? "bg-blue-100 text-blue-700" : "bg-emerald-100 text-emerald-700";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+        className: `rounded-full px-3 py-1.5 text-[9px] font-bold tracking-[0.08em] ${statusColor}`,
+        children: status
+    }, void 0, false, {
+        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+        lineNumber: 123,
+        columnNumber: 5
+    }, this);
+}
+function CompanyCard({ item }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].article, {
         className: "relative h-[380px] w-[285px] shrink-0 cursor-pointer sm:h-[420px] sm:w-[320px]",
         initial: "front",
@@ -1850,7 +1934,7 @@ function FlipCard({ item }) {
         style: {
             perspective: 1200
         },
-        "aria-label": `${item.name}, ${item.role}. Hover or focus to read testimonial.`,
+        "aria-label": `${item.name}. Hover or focus to view partnership details.`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
             className: "relative h-full w-full rounded-xl",
             variants: {
@@ -1875,63 +1959,111 @@ function FlipCard({ item }) {
             },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute inset-0 overflow-hidden rounded-xl bg-slate-900 shadow-[0_16px_40px_rgba(15,23,42,0.10)]",
+                    className: "absolute inset-0 overflow-hidden rounded-xl border border-[#e3e9f3] bg-white shadow-[0_16px_40px_rgba(15,23,42,0.08)]",
                     style: {
                         backfaceVisibility: "hidden"
                     },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: item.image,
-                            alt: "",
-                            fill: true,
-                            sizes: "(max-width: 640px) 285px, 320px",
-                            className: "object-cover grayscale",
-                            draggable: false
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                            lineNumber: 59,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute inset-0 bg-gradient-to-t from-black/80 via-black/5 to-transparent"
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                            lineNumber: 60,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute inset-x-0 bottom-0 p-6 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-xl font-semibold tracking-tight",
-                                    children: item.name
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative flex h-full flex-col justify-between p-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-center justify-between gap-3",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "rounded-full bg-[#f2f6ff] px-3 py-2 text-[11px] font-semibold text-[#3562fa]",
+                                        children: item.category
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                        lineNumber: 158,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StatusBadge, {
+                                        status: item.status
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                        lineNumber: 162,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                lineNumber: 157,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-1 items-center justify-center px-5",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    whileHover: {
+                                        scale: 1.05
+                                    },
+                                    className: "relative flex h-[145px] w-full items-center justify-center rounded-2xl border border-[#e8edf5] bg-white p-7 shadow-[0_16px_35px_rgba(15,23,42,0.07)]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: item.image,
+                                        alt: `${item.name} logo`,
+                                        fill: true,
+                                        sizes: "240px",
+                                        className: "object-contain p-7"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                        lineNumber: 171,
+                                        columnNumber: 17
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                    lineNumber: 62,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-1 text-base text-white/80",
-                                    children: item.role
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                    lineNumber: 63,
-                                    columnNumber: 13
+                                    lineNumber: 167,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                            lineNumber: 61,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                lineNumber: 166,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-[22px] font-semibold tracking-[-0.045em] text-[#17263b]",
+                                        children: item.name
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                        lineNumber: 182,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-2 flex items-center gap-2 text-[13px] font-medium text-[#72839c]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__["Wrench"], {
+                                                className: "h-4 w-4 text-[#3562fa]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                                lineNumber: 187,
+                                                columnNumber: 17
+                                            }, this),
+                                            "View collaboration details"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                        lineNumber: 186,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                lineNumber: 181,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                        lineNumber: 156,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                    lineNumber: 58,
+                    lineNumber: 152,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute inset-0 flex flex-col justify-between rounded-xl bg-white p-7 shadow-[0_16px_42px_rgba(15,23,42,0.10)]",
+                    className: "absolute inset-0 flex flex-col justify-between rounded-xl bg-[#0e1636] p-7 text-white shadow-[0_16px_42px_rgba(15,23,42,0.16)]",
                     style: {
                         backfaceVisibility: "hidden",
                         transform: "rotateY(180deg)"
@@ -1939,67 +2071,102 @@ function FlipCard({ item }) {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-4xl leading-none text-[#2f65f5]",
-                                    children: "“"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center justify-between gap-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative h-12 w-28 overflow-hidden rounded-md bg-white p-2",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                src: item.image,
+                                                alt: `${item.name} logo`,
+                                                fill: true,
+                                                sizes: "112px",
+                                                className: "object-contain p-2"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                                lineNumber: 205,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                            lineNumber: 204,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StatusBadge, {
+                                            status: item.status
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                            lineNumber: 214,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                    lineNumber: 68,
+                                    lineNumber: 203,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-2 text-[19px] font-semibold leading-[1.5] tracking-[-0.025em] text-slate-800",
-                                    children: item.quote
+                                    className: "mt-8 text-[11px] font-bold uppercase tracking-[0.16em] text-[#8fa8e4]",
+                                    children: item.category
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 217,
                                     columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                            lineNumber: 67,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg font-semibold text-slate-800",
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "mt-3 text-[26px] font-semibold tracking-[-0.05em] text-white",
                                     children: item.name
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                    lineNumber: 72,
+                                    lineNumber: 221,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-1 text-base text-slate-500",
-                                    children: item.role
+                                    className: "mt-6 text-[17px] font-medium leading-[1.65] text-[#c0ceef]",
+                                    children: item.detail
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                    lineNumber: 73,
+                                    lineNumber: 225,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                            lineNumber: 71,
+                            lineNumber: 202,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-2 text-[14px] font-semibold text-[#85a0ff]",
+                            children: [
+                                "Explore solution",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                    className: "h-4 w-4"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                    lineNumber: 232,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                            lineNumber: 230,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                    lineNumber: 66,
+                    lineNumber: 195,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/TestimonialsSection.jsx",
-            lineNumber: 52,
+            lineNumber: 142,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/TestimonialsSection.jsx",
-        lineNumber: 43,
+        lineNumber: 133,
         columnNumber: 5
     }, this);
 }
@@ -2007,57 +2174,126 @@ function TestimonialsSection() {
     const marqueeRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const trackRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLayoutEffect"])(()=>{
-        const ctx = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].context(()=>{
+        const context = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].context(()=>{
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].set(trackRef.current, {
                 xPercent: -50
             });
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].to(trackRef.current, {
                 xPercent: 0,
-                duration: 58,
+                duration: 74,
                 repeat: -1,
                 ease: "none"
             });
         }, marqueeRef);
-        return ()=>ctx.revert();
+        return ()=>context.revert();
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        "aria-labelledby": "testimonials-title",
-        className: "overflow-hidden bg-white py-12 sm:py-16 lg:py-20",
+        id: "partners",
+        className: "overflow-hidden bg-white py-14 sm:py-16 lg:py-20",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mx-auto mb-12 flex max-w-7xl items-start justify-between gap-6 px-6 sm:mb-16 lg:px-10",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        id: "testimonials-title",
-                        className: "max-w-[850px] text-[clamp(2.6rem,5vw,4.3rem)] font-semibold leading-[1.06] tracking-[-0.065em] text-slate-800",
-                        children: [
-                            "Businesses grow with ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[#3264f5]",
-                                children: "TallyKonnect."
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                lineNumber: 94,
-                                columnNumber: 180
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                        lineNumber: 94,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "hidden pt-4 text-2xl font-semibold tracking-tight text-black md:block",
-                        children: "1M+ Businesses & Banks"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                        lineNumber: 95,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                className: "mx-auto mb-12 max-w-[1480px] px-5 sm:px-8 lg:mb-16 lg:px-12",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col justify-between gap-7 lg:flex-row lg:items-end",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                opacity: 0,
+                                y: 24
+                            },
+                            whileInView: {
+                                opacity: 1,
+                                y: 0
+                            },
+                            viewport: {
+                                once: true,
+                                margin: "-70px"
+                            },
+                            transition: {
+                                duration: 0.65
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mb-5 text-[16px] font-semibold text-[#3562fa]",
+                                    children: "Partners & Clients"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                    lineNumber: 273,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "max-w-[920px] text-[clamp(2.45rem,4.7vw,4.25rem)] font-semibold leading-[1.06] tracking-[-0.07em] text-[#17263b]",
+                                    children: [
+                                        "Businesses grow with",
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-[#3562fa]",
+                                            children: "TallyKonnect."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                            lineNumber: 279,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                    lineNumber: 277,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                            lineNumber: 267,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                opacity: 0,
+                                y: 18
+                            },
+                            whileInView: {
+                                opacity: 1,
+                                y: 0
+                            },
+                            viewport: {
+                                once: true
+                            },
+                            transition: {
+                                delay: 0.15,
+                                duration: 0.55
+                            },
+                            className: "flex shrink-0 items-center gap-3 rounded-full border border-[#dfe7f4] bg-[#f7f9fd] px-5 py-3",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__["Landmark"], {
+                                    className: "h-5 w-5 text-[#3562fa]"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                    lineNumber: 290,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-[14px] font-semibold text-[#17263b]",
+                                    children: "Banking, technology & enterprise ecosystem"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                                    lineNumber: 292,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                            lineNumber: 283,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                    lineNumber: 266,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                lineNumber: 93,
+                lineNumber: 265,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2065,17 +2301,17 @@ function TestimonialsSection() {
                 className: "relative",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-white to-transparent md:w-40"
+                        className: "pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-white to-transparent sm:w-28 lg:w-40"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                        lineNumber: 98,
+                        lineNumber: 301,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-white to-transparent md:w-40"
+                        className: "pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-white to-transparent sm:w-28 lg:w-40"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                        lineNumber: 99,
+                        lineNumber: 302,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2087,33 +2323,79 @@ function TestimonialsSection() {
                         ].map((duplicate)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex shrink-0 gap-6 pr-6 sm:gap-8 sm:pr-8",
                                 "aria-hidden": duplicate === 1,
-                                children: testimonialCards.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FlipCard, {
+                                children: partnerCards.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CompanyCard, {
                                         item: item
                                     }, `${duplicate}-${item.name}`, false, {
                                         fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                        lineNumber: 100,
-                                        columnNumber: 236
+                                        lineNumber: 312,
+                                        columnNumber: 17
                                     }, this))
                             }, duplicate, false, {
                                 fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                                lineNumber: 100,
-                                columnNumber: 99
+                                lineNumber: 306,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                        lineNumber: 100,
+                        lineNumber: 304,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/TestimonialsSection.jsx",
-                lineNumber: 97,
+                lineNumber: 300,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: {
+                    opacity: 0,
+                    y: 18
+                },
+                whileInView: {
+                    opacity: 1,
+                    y: 0
+                },
+                viewport: {
+                    once: true,
+                    margin: "-40px"
+                },
+                transition: {
+                    duration: 0.6
+                },
+                className: "mx-auto mt-12 max-w-[1100px] px-5 sm:px-8",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex items-start gap-4 rounded-xl border border-[#dfe7f4] bg-[#f7f9fd] p-5 sm:p-6",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__["Info"], {
+                            className: "mt-0.5 h-5 w-5 shrink-0 text-[#3562fa]"
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                            lineNumber: 331,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-[13px] leading-6 text-[#61738d] sm:text-[14px]",
+                            children: "Enterprise client names are presented as self-reported by TallyKonnect and have not been independently verified. For the most current partnership or plugin information, please contact TallyKonnect directly."
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                            lineNumber: 333,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                    lineNumber: 330,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/sections/TestimonialsSection.jsx",
+                lineNumber: 323,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/TestimonialsSection.jsx",
-        lineNumber: 92,
+        lineNumber: 260,
         columnNumber: 5
     }, this);
 }
