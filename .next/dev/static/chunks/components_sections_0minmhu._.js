@@ -1919,21 +1919,21 @@ const partnerCards = [
     {
         category: "Banking Partner",
         name: "Axis Bank",
-        image: "/partners/axis-bank.png",
+        image: "/partners/axis_bank.png",
         detail: "Launched a Tally plugin.",
         status: "PARTNER"
     },
     {
         category: "Banking Partner",
         name: "AU Small Finance Bank",
-        image: "/partners/au-bank.png",
+        image: "/partners/au_bank.png",
         detail: "Confirmed as a partner.",
         status: "PARTNER"
     },
     {
         category: "Banking Partner",
         name: "Canara Bank",
-        image: "/partners/canara-bank.png",
+        image: "/partners/canara_bank.png",
         detail: "Confirmed as a partner.",
         status: "PARTNER"
     },
@@ -1947,7 +1947,7 @@ const partnerCards = [
     {
         category: "Banking Partner",
         name: "ICICI Bank",
-        image: "/partners/icici-bank.png",
+        image: "/partners/icici_bank.jpg",
         detail: 'Announced as the "first BANK PLUGIN" created in 2021.',
         status: "FIRST PLUGIN"
     },
@@ -1961,35 +1961,35 @@ const partnerCards = [
     {
         category: "Banking Partner",
         name: "RBL Bank",
-        image: "/partners/rbl-bank.png",
+        image: "/partners/rbl_bank.png",
         detail: 'The plugin is noted as "IN PROGRESS".',
         status: "IN PROGRESS"
     },
     {
         category: "Banking Partner",
         name: "State Bank of India",
-        image: "/partners/sbi.png",
+        image: "/partners/snoi.jpeg",
         detail: "Listed as a partner on TallyKonnect's official site.",
         status: "PARTNER"
     },
     {
         category: "Banking Partner",
         name: "Yes Bank",
-        image: "/partners/yes-bank.png",
+        image: "/partners/yes_bank.png",
         detail: "Launched a Tally plugin in May 2024.",
         status: "PLUGIN LIVE"
     },
     {
         category: "Technology Collaborator",
         name: "Tak.inc",
-        image: "/partners/tak-inc.png",
+        image: "/partners/rbl_bank.jpg",
         detail: "Collaborated to create the first ICICI Bank plugin.",
         status: "COLLABORATOR"
     },
     {
         category: "Enterprise Client",
         name: "Beyobo",
-        image: "/partners/beyobo.png",
+        image: "/partners/beyobo.jpg",
         detail: "Listed by TallyKonnect as an enterprise client.",
         status: "SELF-REPORTED"
     },
@@ -2010,7 +2010,7 @@ const partnerCards = [
     {
         category: "Enterprise Client",
         name: "Vedant Fashions Limited",
-        image: "/partners/manyavar.png",
+        image: "/partners/manyavar.jpg",
         detail: "Listed by TallyKonnect as an enterprise client.",
         status: "SELF-REPORTED"
     }
